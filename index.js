@@ -24,14 +24,13 @@ inquirer
     // Save the image to a file
     qr_png.pipe(fs.createWriteStream(filePath));
     console.log(`✅ QR Code generated successfully! Check the file: ${filePath}`)
-    
+
     // Generate txt file
     fs.writeFile("URL.txt", url, (err) => {
         if (err) throw err;
         console.log("The file has been saved!");
     })
 
-    
   })
 
   .catch((error) => {
@@ -42,4 +41,3 @@ inquirer
         console.error("❌ Something went wrong: ", error);
     }
   });
-
