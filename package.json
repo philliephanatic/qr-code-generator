@@ -1,0 +1,19 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "browser based qr-code-generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qr-code"
+  ],
+  "author": "Nolan Young",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.4.2",
+    "qr-image": "^3.2.0"
+  }
+}
